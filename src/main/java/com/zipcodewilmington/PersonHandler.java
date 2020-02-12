@@ -54,8 +54,9 @@ for (int counter=0; counter<personArray.length; counter++){
         String result = "";
         // identify array's type
         // identify array's variable-name
-
-
+        for(Person currentPerson: personArray) {
+            result += currentPerson;
+        }
         // use the above discoveries to declare for-each-loop signature
             // begin loop
                 // get `string Representation` of `currentPerson`
